@@ -158,40 +158,7 @@ export default function About() {
                 </div>
             </section>
 
-            {/* Team Section */}
-            <section className="py-20 bg-linear-to-br from-slate-950 via-slate-900 to-sky-950 border-t border-gray-800">
-                <div className="max-w-7xl mx-auto px-6">
-                    <div className="text-center mb-16">
-                        <div className="inline-flex items-center px-4 py-2 rounded-full bg-teal-500/10 border border-cyan-400/20 mb-8">
-                            <span className="text-sm font-medium text-teal-300">Our Team</span>
-                        </div>
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Meet The Experts</h2>
-                        <p className="text-lg text-gray-300 max-w-2xl mx-auto">
-                            Dedicated professionals committed to delivering exceptional results
-                        </p>
-                    </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        {team.map((member, index) => (
-                            <div key={index} className="bg-gray-800/50 rounded-xl border border-gray-700 p-6 text-center hover:border-teal-500/30 transition-all duration-300">
-                                <div className="w-20 h-20 bg-linear-to-br from-teal-600 to-blue-600 rounded-full flex items-center justify-center mx-auto mb-4 text-white text-2xl font-bold">
-                                    {member.name.split(' ').map(n => n[0]).join('')}
-                                </div>
-                                <h3 className="text-lg font-semibold text-white mb-1">{member.name}</h3>
-                                <p className="text-cyan-400 text-sm mb-3">{member.role}</p>
-                                <p className="text-gray-300 text-sm mb-4">{member.description}</p>
-                                <div className="space-y-1">
-                                    {member.expertise.map((skill, idx) => (
-                                        <span key={idx} className="inline-block bg-gray-700 text-gray-300 text-xs px-2 py-1 rounded mr-1 mb-1">
-                                            {skill}
-                                        </span>
-                                    ))}
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                </div>
-            </section>
 
             {/* CTA Section */}
             <section className="py-20 bg-linear-to-br from-slate-950 via-slate-900 to-sky-950 border-t border-gray-800">
