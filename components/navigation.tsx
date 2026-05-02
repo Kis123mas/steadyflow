@@ -13,7 +13,7 @@ const Navigation = () => {
     { name: 'Home', href: '/' },
     { name: 'About', href: '/about' },
     { name: 'Services', href: '/services' },
-    { name: 'Projects', href: '/projects'},
+    { name: 'Projects', href: '/projects' },
   ];
 
   const isActive = (href: string) => {
@@ -28,7 +28,7 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
-          <Link href="/" className="flex items-center space-x-2">
+          <Link href="/" className="flex flex-col items-center">
             <div className="relative">
               <Image
                 src="/icon/steadyflowlogo.png"
@@ -38,6 +38,7 @@ const Navigation = () => {
                 className="object-contain"
               />
             </div>
+            <span className="text-white font-semibold text-sm tracking-wide">Steadyflow</span>
           </Link>
 
           {/* Desktop Navigation */}
@@ -62,7 +63,7 @@ const Navigation = () => {
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
             <a
-              href="https://wa.me/message/5WGMY6PC2CO2B1"
+              href="https://wa.me/2349155326252"
               className="bg-linear-to-r from-cyan-500 to-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:from-cyan-400 hover:to-blue-700 hover:scale-105 transition-all duration-200 shadow-lg hover:shadow-cyan-500/25"
             >
               Chat with Our Team
