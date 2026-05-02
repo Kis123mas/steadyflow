@@ -112,7 +112,7 @@ const Navigation = () => {
               })}
               <div className="px-3 py-2">
                 <a
-                  href="https://wa.me/message/5WGMY6PC2CO2B1"
+                  href="https://wa.me/2349155326252"
                   className="block w-full text-center bg-linear-to-r from-cyan-500 to-blue-600 text-white px-4 py-2 rounded-lg font-semibold hover:from-cyan-400 hover:to-blue-700 transition-all duration-200"
                   onClick={() => setIsOpen(false)}
                 >
