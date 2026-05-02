@@ -109,7 +109,7 @@ export default function Services() {
 
                                 <div className="flex items-center justify-end pt-4 border-t border-gray-700">
                                     <Link
-                                        href="/contact"
+                                        href="https://wa.me/2349155326252"
                                         className="bg-linear-to-r from-cyan-500 to-blue-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:from-cyan-400 hover:to-blue-700 transition-colors duration-200"
                                     >
                                         Contact Us
