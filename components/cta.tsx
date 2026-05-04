@@ -25,14 +25,14 @@ export default function CTA() {
 
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <Link
-                        href="https://wa.me/2349155326252
+                        href="https://wa.me/2349155326252"
                         className="bg-linear-to-r from-cyan-500 to-blue-600 text-white px-8 py-3 rounded-lg font-semibold hover:from-cyan-400 hover:to-blue-700 transition-all duration-200 shadow-lg hover:shadow-cyan-500/20 border border-transparent hover:scale-105"
                     >
                         Schedule a Free Consultation
                     </Link>
 
                     <Link
-                        href="https://wa.me/2349155326252
+                        href="https://wa.me/2349155326252"
                         className="bg-transparent text-gray-300 px-8 py-3 rounded-lg font-semibold border border-gray-600 hover:border-gray-400 transition-all duration-200 hover:bg-white/5 backdrop-blur-sm"
                     >
                         Chat with Our Team
